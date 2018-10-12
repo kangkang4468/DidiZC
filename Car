@@ -1,0 +1,21 @@
+package com.company;
+
+public class Car {
+    public  int bianhao;
+    public  String name;
+    public  int zaike;
+    public int zaihuo;
+    public double jiage;
+
+    Car(int bianhap,String name,int zaike,int zaihuo,int jiage){
+        this.bianhao=bianhap;
+        this.name = name;
+        this.zaike =zaike;
+        this.zaihuo = zaihuo;
+        this.jiage = jiage;
+    }
+    public String toString(){
+        return bianhao+".\t"+name+"\t"+zaike+"人次.\t"+zaihuo+"吨.\t"+jiage+"元/每天";
+
+    }
+}
