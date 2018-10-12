@@ -1,0 +1,23 @@
+package com.company;
+
+public class Zneibu {
+   private Car[] car= new Car[6];
+
+   void chushihua(){
+       car[0]=new ZaikCar(1,"奥迪A4",5,300);
+       car[1]=new ZaikCar(2,"奥迪A6",5,400);
+       car[2]=new ZaikCar(3,"奥迪A7",5,500);
+       car[3]=new ZaikCar(4,"奥迪A7",5,500);
+       car[4]=new HuocheCar(5,"东风8",700,700);
+       car[5]=new Car(6,"猛禽皮卡",6,700,1000);
+   }
+   void xianshi() {
+       System.out.println("可租用相关车辆信息！");
+       for (Car s : car) {
+           System.out.println(s);
+       }
+   }
+   void  jiesuan(){
+
+   }
+}
